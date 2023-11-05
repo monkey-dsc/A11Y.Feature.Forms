@@ -96,8 +96,8 @@
     <Compile Include="Models\A11YCheckBoxViewModel.cs" />
     <Compile Include="Models\A11YDateViewModel.cs" />
     <Compile Include="Models\A11YDropDownListViewModel.cs" />
-    <Compile Include="Helpers\IAccessibilitySettings.cs" />
-    <Compile Include="Helpers\IValidationSettings.cs" />
+    <Compile Include="Models\Interfaces\IAccessibilitySettings.cs" />
+    <Compile Include="Models\Interfaces\IValidationSettings.cs" />
     <Compile Include="Models\A11YListViewModel.cs" />
     <Compile Include="Models\A11YStringInputViewModel.cs" />
     <Compile Include="Models\A11YMultipleLineTextViewModel.cs" />

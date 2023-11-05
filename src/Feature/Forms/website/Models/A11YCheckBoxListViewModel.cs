@@ -1,5 +1,6 @@
 ﻿using System;
 using A11Y.Feature.Forms.Helpers;
+using A11Y.Feature.Forms.Models.Interfaces;
 using Sitecore.Data.Items;
 using Sitecore.ExperienceForms.Mvc.Models;
 using Sitecore.ExperienceForms.Mvc.Models.Fields;
