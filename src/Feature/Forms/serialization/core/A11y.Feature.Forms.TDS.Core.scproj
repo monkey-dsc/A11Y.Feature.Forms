@@ -1,0 +1,168 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>62fe8fb8-d320-4a60-b265-a219d75bbbc9</ProjectGuid>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <CompactSitecoreItemsInProjectFile>True</CompactSitecoreItemsInProjectFile>
+    <AssemblyName>core</AssemblyName>
+    <Name>MSW.Feature.Forms.TDS.Core</Name>
+    <RootNamespace>core</RootNamespace>
+    <ManageRoles>False</ManageRoles>
+    <SitecoreDatabase>core</SitecoreDatabase>
+    <AssemblyStatus>Exclude</AssemblyStatus>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <RecursiveDeployAction>Ignore</RecursiveDeployAction>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <SitecoreItem Include="sitecore\c.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization><SitecoreName>client</SitecoreName></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization><SitecoreName>Applications</SitecoreName></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization><SitecoreName>FormsBuilder</SitecoreName></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization><SitecoreName>Components</SitecoreName></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization><SitecoreName>Layouts</SitecoreName></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\a.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization><SitecoreName>Actions</SitecoreName></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\a\A11Y Verify Form Field To Be Empty.item"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\a\A11Y Verify Form Field To Be Empty\PageSettings.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\a\A11Y Verify Form Field To Be Empty\PageSettings\GenericErrorMessage.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\a\A11Y Verify Form Field To Be Empty\PageSettings\HeaderSubtitle.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\a\A11Y Verify Form Field To Be Empty\PageSettings\HeaderTitle.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\a\A11Y Verify Form Field To Be Empty\PageSettings\SettingsForm.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\a\A11Y Verify Form Field To Be Empty\PageSettings\SettingsForm\FromFieldSection.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\a\A11Y Verify Form Field To Be Empty\PageSettings\SettingsForm\FromFieldSection\FieldHoneypotId.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\a\A11Y Verify Form Field To Be Empty\PageSettings\Stylesheet.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\a\A11Y Verify Form Field To Be Empty\PageSettings\UnauthorizedErrorMessage.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\a\A11Y Verify Form Field To Be Empty\PageSettings\ValueNotInListText.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>DeployOnce</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization><SitecoreName>PropertyGridForm</SitecoreName></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization><SitecoreName>PageSettings</SitecoreName></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\Common.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\Common\Details.item"><ItemDeployment>DeployOnce</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\Common\Details\AllowedContentTypes.item"><ItemDeployment>AlwaysUpdate</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\Common\Details\MaxFileSize.item"><ItemDeployment>AlwaysUpdate</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\Common\Sections.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\Common\Sections\AccessibilityExpander.item"><ItemDeployment>AlwaysUpdate</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\Common\Validation.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\Common\Validation\A11Y RequiredFieldMessage.item"><ItemDeployment>AlwaysUpdate</ItemDeployment><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization><SitecoreName>Settings</SitecoreName></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y.item"><ItemDeployment>AlwaysUpdate</ItemDeployment><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y CheckBox.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y CheckBox\Accessibility.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y CheckBox\Accessibility\Autocomplete combined.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y CheckBox\Accessibility\Autocomplete.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y CheckBox\Advanced.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y CheckBox\Conditions.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y CheckBox\Details.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y CheckBox\Details\IsChecked.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y CheckBox\Styling.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y CheckBox\Validation.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y CheckboxList.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y CheckboxList\Accessibility.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y CheckboxList\Accessibility\Autocomplete combined.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y CheckboxList\Accessibility\Autocomplete.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y CheckboxList\Advanced.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y CheckboxList\Conditions.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y CheckboxList\Details.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y CheckboxList\ListItems.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y CheckboxList\ListItems\DatasourceManager.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y CheckboxList\Styling.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y CheckboxList\Validation.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DatePicker.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DatePicker\Accessibility.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DatePicker\Accessibility\Autocomplete combined.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DatePicker\Accessibility\Autocomplete.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DatePicker\Advanced.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DatePicker\Conditions.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DatePicker\Details.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DatePicker\Details\DatesManager.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DatePicker\Details\EndDatePicker.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DatePicker\Details\SelectedDatePicker.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DatePicker\Details\StartDatePicker.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DatePicker\Styling.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DatePicker\Validation.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DropDownList.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DropDownList\Accessibility.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DropDownList\Accessibility\Autocomplete combined.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DropDownList\Accessibility\Autocomplete.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DropDownList\Advanced.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DropDownList\Conditions.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DropDownList\Details.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DropDownList\ListItems.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DropDownList\ListItems\DatasourceManager.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DropDownList\ListItems\ShowEmptyItem.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DropDownList\Styling.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y DropDownList\Validation.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y Einzeiliger Text.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y Einzeiliger Text\Accessibility.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y Einzeiliger Text\Accessibility\Autocomplete combined.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y Einzeiliger Text\Accessibility\Autocomplete.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y Einzeiliger Text\Advanced.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y Einzeiliger Text\Conditions.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y Einzeiliger Text\Details.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y Einzeiliger Text\Styling.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y Einzeiliger Text\Validation.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y Honeypot.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y Honeypot\Details.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y MultiLineText.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y MultiLineText\Accessibility.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y MultiLineText\Accessibility\Autocomplete combined.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y MultiLineText\Accessibility\Autocomplete.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y MultiLineText\Advanced.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y MultiLineText\Conditions.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y MultiLineText\Details.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y MultiLineText\Details\Rows.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y MultiLineText\Styling.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y MultiLineText\Validation.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y Number.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y Number\Accessibility.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y Number\Accessibility\Autocomplete combined.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y Number\Accessibility\Autocomplete.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y Number\Advanced.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y Number\Conditions.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y Number\Details.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y Number\Details\DefaultValue.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y Number\Details\Max.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y Number\Details\Min.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y Number\Details\Step.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y Number\Styling.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y Number\Validation.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y RadioList.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y RadioList\Accessibility.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y RadioList\Accessibility\Autocomplete combined.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y RadioList\Accessibility\Autocomplete.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y RadioList\Advanced.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y RadioList\Conditions.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y RadioList\Details.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y RadioList\ListItems.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y RadioList\ListItems\DatasourceManager.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y RadioList\Styling.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\c\l\pgf\ps\s\A11Y\A11Y RadioList\Validation.item"><ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization><ItemDeployment>AlwaysUpdate</ItemDeployment></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\Pages.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\Pages\FormDesigner.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\Pages\FormDesigner\ps.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization><SitecoreName>PageSettings</SitecoreName></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\Pages\FormDesigner\ps\itc.item"><ItemDeployment>NeverDeploy</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization><SitecoreName>InfoTabControl</SitecoreName></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\Pages\FormDesigner\ps\itc\d.item"><ItemDeployment>AlwaysUpdate</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization><SitecoreName>Design</SitecoreName></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\Pages\FormDesigner\ps\itc\d\ps.item"><ItemDeployment>AlwaysUpdate</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization><SitecoreName>PageSettings</SitecoreName></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\Pages\FormDesigner\ps\itc\d\ps\DraggableA11YBasic.item"><ItemDeployment>AlwaysUpdate</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\Pages\FormDesigner\ps\itc\d\ps\DraggableA11YLists.item"><ItemDeployment>AlwaysUpdate</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\Pages\FormDesigner\ps\itc\d\ps\ExpanderA11YBasic.item"><ItemDeployment>AlwaysUpdate</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+    <SitecoreItem Include="sitecore\c\a\fb\Pages\FormDesigner\ps\itc\d\ps\ExpanderA11YLists.item"><ItemDeployment>AlwaysUpdate</ItemDeployment><ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization></SitecoreItem>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets" Condition="Exists('$(MSBuildExtensionsPath)\HedgehogDevelopment\SitecoreProject\v9.0\HedgehogDevelopment.SitecoreProject.targets')" />
+</Project>

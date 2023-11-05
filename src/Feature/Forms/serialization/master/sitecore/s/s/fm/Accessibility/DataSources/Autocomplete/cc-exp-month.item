@@ -1,0 +1,162 @@
+----item----
+version: 1
+id: {9DCB84DB-9BAE-4805-B8F6-637906F61850}
+database: master
+path: /sitecore/system/Settings/Forms/Accessibility/DataSources/Autocomplete/cc-exp-month
+parent: {60FC7E18-3B61-4838-9CAD-6FFD7CA5868C}
+name: cc-exp-month
+master: {00000000-0000-0000-0000-000000000000}
+template: {36417C61-DCD5-4EC2-AA49-12C19D7E874A}
+templatekey: Autocomplete Token
+created: 20200506T101329Z
+
+----field----
+field: {4CF69976-0782-4C24-8A4E-3DEC90E248D0}
+name: Value
+key: value
+content-length: 12
+
+cc-exp-month
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+3100
+----version----
+language: de-DE
+version: 1
+revision: 23ae8819-5edc-4121-9ef7-a11da67066d3
+
+----field----
+field: {D8466181-6626-4D9A-84D1-07AAD709563A}
+name: Name
+key: name
+content-length: 29
+
+Kreditkarte Ablaufdatum Monat
+----field----
+field: {834C49B0-1FBC-4C6D-B2AE-99B676AE6421}
+name: Description
+key: description
+content-length: 58
+
+Monatskomponente des Ablaufdatums des Zahlungsinstruments.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 29
+
+Kreditkarte Ablaufdatum Monat
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200506T101329Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+23ae8819-5edc-4121-9ef7-a11da67066d3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200508T151238Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: en
+version: 1
+revision: 43bee725-14ba-4884-9cbb-8b40dd70288e
+
+----field----
+field: {D8466181-6626-4D9A-84D1-07AAD709563A}
+name: Name
+key: name
+content-length: 33
+
+Credit Card Expiration Date Month
+----field----
+field: {834C49B0-1FBC-4C6D-B2AE-99B676AE6421}
+name: Description
+key: description
+content-length: 65
+
+Month component of the expiration date of the payment instrument.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 33
+
+Credit Card Expiration Date Month
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200507T104053Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+43bee725-14ba-4884-9cbb-8b40dd70288e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200507T111131Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

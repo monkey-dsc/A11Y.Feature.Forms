@@ -1,0 +1,99 @@
+----item----
+version: 1
+id: {044E088D-A72A-4B13-B086-5282C24FC412}
+database: master
+path: /sitecore/templates/System/Forms/Fields/A11Y/Checkbox/__Standard Values
+parent: {8DBC3D27-FC66-4611-8F6E-65E5317065FD}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {8DBC3D27-FC66-4611-8F6E-65E5317065FD}
+templatekey: Checkbox
+created: 20221114T132014Z
+
+----field----
+field: {D99833EA-238A-4505-90EF-C69BF3EBA946}
+name: Is Tracking Enabled
+key: is tracking enabled
+content-length: 1
+
+1
+----field----
+field: {589A7ADE-81D4-4A60-B9E2-7EAF6AE8A563}
+name: Field Type
+key: field type
+content-length: 38
+
+{4DA85E8A-3B48-4BC6-9565-8C1F5F36DD1B}
+----version----
+language: de-DE
+version: 1
+revision: 294c2040-b074-4a15-aeb4-9fe638f6b1b5
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200512T154912Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+294c2040-b074-4a15-aeb4-9fe638f6b1b5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200512T154912Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: en
+version: 1
+revision: b96f6560-c43a-45d8-b273-ee8ac85cb6fe
+
+----field----
+field: {71FFD7B2-8B09-4F7B-8A66-1E4CEF653E8D}
+name: Title
+key: title
+content-length: 5
+
+Label
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170627T091528Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b96f6560-c43a-45d8-b273-ee8ac85cb6fe
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20221114T132015Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

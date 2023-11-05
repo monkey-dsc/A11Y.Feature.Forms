@@ -1,0 +1,197 @@
+----item----
+version: 1
+id: {249FF446-545F-4599-B8B3-EFB9190BF1DD}
+database: core
+path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/A11Y/A11Y Einzeiliger Text/Accessibility/Autocomplete
+parent: {A323E721-5A19-4393-A283-629407B7B0F4}
+name: Autocomplete
+master: {00000000-0000-0000-0000-000000000000}
+template: {4640F8F6-FF25-4615-8A40-FE9F0C87225E}
+templatekey: FormDropList Parameters
+created: 20221110T220822Z
+
+----field----
+field: {89C2C7E3-E302-4CEB-9D41-4655A4C0351D}
+name: IsEnabled
+key: isenabled
+content-length: 1
+
+1
+----field----
+field: {52BD8A00-1A9C-4AB2-B0D8-8C6A49AFEF00}
+name: Database
+key: database
+content-length: 24
+
+$context_contentdatabase
+----field----
+field: {0CC7F24B-2013-46C6-8AE3-5233D094FF7C}
+name: StaticData
+key: staticdata
+content-length: 38
+
+{60FC7E18-3B61-4838-9CAD-6FFD7CA5868C}
+----field----
+field: {0B6B2D34-5308-4AA8-B59D-85BA47E8B8AA}
+name: ValueFieldName
+key: valuefieldname
+content-length: 0
+
+
+----field----
+field: {A176E7B0-1C0B-4F2E-A494-2DF342A75C0E}
+name: IsLabelOnTop
+key: islabelontop
+content-length: 1
+
+1
+----field----
+field: {3E079FC3-6B2D-41C9-9204-374A786FC761}
+name: BindingConfiguration
+key: bindingconfiguration
+content-length: 32
+
+autocompleteItemId=SelectedValue
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 27
+
+office/32x32/text_field.png
+----version----
+language: de-DE
+version: 1
+revision: fa99d54c-a3e7-4378-ac81-094a28ef072a
+
+----field----
+field: {85F7FB0C-B383-4D91-B42E-90247EA49ACB}
+name: HelpText
+key: helptext
+content-length: 59
+
+Unterstützt den Besucher beim ausfüllen von Formularfeldern
+----field----
+field: {3885A716-2EED-47AE-9132-32225F0458FF}
+name: FormLabel
+key: formlabel
+content-length: 28
+
+Automatisch vervollständigen
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 28
+
+Automatisch vervollständigen
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200506T141000Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fa99d54c-a3e7-4378-ac81-094a28ef072a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20231105T130015Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 70aa32de-a8f3-45fc-af3b-ce405f1b146f
+
+----field----
+field: {85F7FB0C-B383-4D91-B42E-90247EA49ACB}
+name: HelpText
+key: helptext
+content-length: 44
+
+Supports the visitor to fill out form fields
+----field----
+field: {3885A716-2EED-47AE-9132-32225F0458FF}
+name: FormLabel
+key: formlabel
+content-length: 12
+
+Autocomplete
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+Autocomplete
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200506T092645Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+70aa32de-a8f3-45fc-af3b-ce405f1b146f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20220318T163256Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

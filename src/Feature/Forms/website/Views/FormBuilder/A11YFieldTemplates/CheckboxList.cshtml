@@ -1,0 +1,53 @@
+@using A11Y.Feature.Forms.Dtos
+@using A11Y.Feature.Forms.Shared.Constants
+@using Sitecore.ContentSearch.Utilities
+@using Sitecore.ExperienceForms.Mvc.Html
+@using A11Y.Feature.Forms.Extensions
+@using A11Y.Feature.Forms.Helpers
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+@model A11Y.Feature.Forms.Models.A11YCheckBoxListViewModel
+@{
+    var requiredMarker = Model.Required ? "*" : string.Empty;
+    var attributesToReplace = new Dictionary<string, bool> {{"data-val-ischecked", !Model.RequiredFieldMessage.IsNullOrWhiteSpace()}};
+}
+
+<div class="form-group checkbox-list">
+    @{
+        var requiredMarkerPos1 = requiredMarker;
+        var requiredMarkerPos2 = " " + requiredMarker;
+
+        if (!string.IsNullOrWhiteSpace(Model.Title))
+        {
+            requiredMarkerPos2 = string.Empty;
+        }
+        else
+        {
+            requiredMarkerPos1 = string.Empty;
+        }
+    }
+    <label class="@Model.LabelCssClass">
+        @if (Html.Sitecore().IsExperienceFormsEditMode())
+        {
+            @Html.DisplayTextFor(t => Model.Title) @requiredMarkerPos1
+        }
+        else
+        {
+            @Html.Sxa().Field(Templates.LabelSettings.Fields.TitleId, Sitecore.Context.Database.Items.GetItem(Model.ItemId), new A11YRenderingParameterDto { ShowTextAsRaw = true })
+            @requiredMarker
+        }
+
+    </label>
+    <input type="hidden" name="@Html.NameFor(m => Model.Value)" />
+    <div class="form-control @Model.CssClass"
+         aria-live="polite"
+         aria-relevant="additions text"
+         role="alertdialog">
+        @foreach (var item in Model.Items)
+        {
+            <label for="@item.ItemId">
+                <input aria-describedby="@item.ItemId" aria-label="@Model.Title @item.Text" id="@item.ItemId" type="checkbox" class="checkbox" name="@Html.NameFor(m => Model.Value)" @if (item.Selected) { <text> checked</text>} value="@item.Value" @if (Model.HasAutocomplete) { <text> autocomplete="@Model.AutocompleteValue" </text> } @if (Model.Required) { if (!string.IsNullOrEmpty(Model.RequiredFieldMessage)) { <text> data-val-ischecked="@Model.RequiredFieldMessage" aria-required="true" </text> } } data-sc-tracking="@Model.IsTrackingEnabled" data-sc-field-name="@Model.Name" data-sc-field-key="@Model.ConditionSettings.FieldKey" @Html.GenerateUnobtrusiveValidationAttributes(m => Model.Value, attributesToReplace) />@Html.Raw(item.Text) @requiredMarkerPos2
+            </label>
+        }
+        @Html.ValidationMessageFor(m => Model.Value)
+    </div>
+</div>

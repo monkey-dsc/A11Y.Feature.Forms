@@ -1,0 +1,120 @@
+----item----
+version: 1
+id: {66DB31E7-F78E-4C09-ABA0-AD4D76AF2AD6}
+database: core
+path: /sitecore/client/Applications/FormsBuilder/Pages/FormDesigner/PageSettings/InfoTabControl/Design/PageSettings/ExpanderA11YLists
+parent: {2B190E35-212D-43E4-B63B-F748043677CD}
+name: ExpanderA11YLists
+master: {00000000-0000-0000-0000-000000000000}
+template: {B751A653-89BD-4320-8D5A-2EB82F12A4C1}
+templatekey: Expander Parameter
+created: 20200506T135704Z
+
+----version----
+language: de-DE
+version: 1
+revision: 53980fd3-acd4-44b0-a881-8d59ca9f701a
+
+----field----
+field: {EE414BAB-7885-4C87-B60B-D15255BD8E5B}
+name: HeaderText
+key: headertext
+content-length: 13
+
+Listen (A11Y)
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200506T135914Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+53980fd3-acd4-44b0-a881-8d59ca9f701a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20221110T182438Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: b36bfa1a-b67d-4901-acbf-8bfc9db074c3
+
+----field----
+field: {EE414BAB-7885-4C87-B60B-D15255BD8E5B}
+name: HeaderText
+key: headertext
+content-length: 12
+
+Lists (A11Y)
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200506T135704Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b36bfa1a-b67d-4901-acbf-8bfc9db074c3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20221110T182221Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

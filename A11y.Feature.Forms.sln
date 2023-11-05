@@ -1,0 +1,102 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34031.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{22E9CCA6-105C-4B46-8696-323F3D682FE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{B71BDBF1-F1CD-40AF-868A-6778E48D3514}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{FF03C854-496E-440F-B3BC-2E58BA011F70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{07D68AD1-B812-4260-9C68-EFEB659DE743}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{E6663DC4-35A7-43B7-BC84-DE5E9E23DA01}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		nuget.config = nuget.config
+		README.md = README.md
+		build\Solution.config = build\Solution.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "props", "props", "{2A2C653D-4CA5-444F-91A7-AD2BD5B614EC}"
+	ProjectSection(SolutionItems) = preProject
+		build\props\Website.BuildProperties.props = build\props\Website.BuildProperties.props
+		build\props\Website.PackageReferences.props = build\props\Website.PackageReferences.props
+		build\props\Website.ProjectContent.props = build\props\Website.ProjectContent.props
+		build\props\Website.Publishing.props = build\props\Website.Publishing.props
+		build\props\Website.References.props = build\props\Website.References.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "targets", "targets", "{6DF5EDF0-20C0-40C1-B0FA-3244444ACA4D}"
+	ProjectSection(SolutionItems) = preProject
+		build\targets\Website.AutoPublish.targets = build\targets\Website.AutoPublish.targets
+		build\targets\Website.DoNotPublishAssembly.props = build\targets\Website.DoNotPublishAssembly.props
+		build\targets\Website.PublishSingleItem.targets = build\targets\Website.PublishSingleItem.targets
+		build\targets\Website.RemoveDoNotPublishAssembly.targets = build\targets\Website.RemoveDoNotPublishAssembly.targets
+		build\targets\Website.TransformXml.targets = build\targets\Website.TransformXml.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A11Y.Feature.Forms", "src\Feature\Forms\website\A11Y.Feature.Forms.csproj", "{ACBFE8D8-E96B-49C9-A91D-F43D8C582864}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forms", "Forms", "{688256FB-C5FC-4A21-9A57-F2E9ED432E7D}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "A11y.Feature.Forms.TDS.Core", "src\Feature\Forms\serialization\core\A11y.Feature.Forms.TDS.Core.scproj", "{62FE8FB8-D320-4A60-B265-A219D75BBBC9}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "A11y.Feature.Forms.TDS.Master", "src\Feature\Forms\serialization\master\A11y.Feature.Forms.TDS.Master.scproj", "{96D7BC34-DEFB-4059-BF63-8A4F711313D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TDS", "TDS", "{19AE2918-8EA9-461E-A8B5-2EFCF80AACEC}"
+	ProjectSection(SolutionItems) = preProject
+		TdsGlobal.config = TdsGlobal.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		LocalCBR|Any CPU = LocalCBR|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACBFE8D8-E96B-49C9-A91D-F43D8C582864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACBFE8D8-E96B-49C9-A91D-F43D8C582864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACBFE8D8-E96B-49C9-A91D-F43D8C582864}.LocalCBR|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACBFE8D8-E96B-49C9-A91D-F43D8C582864}.LocalCBR|Any CPU.Build.0 = Debug|Any CPU
+		{ACBFE8D8-E96B-49C9-A91D-F43D8C582864}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACBFE8D8-E96B-49C9-A91D-F43D8C582864}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{62FE8FB8-D320-4A60-B265-A219D75BBBC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62FE8FB8-D320-4A60-B265-A219D75BBBC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62FE8FB8-D320-4A60-B265-A219D75BBBC9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{62FE8FB8-D320-4A60-B265-A219D75BBBC9}.LocalCBR|Any CPU.ActiveCfg = Debug|Any CPU
+		{62FE8FB8-D320-4A60-B265-A219D75BBBC9}.LocalCBR|Any CPU.Build.0 = Debug|Any CPU
+		{62FE8FB8-D320-4A60-B265-A219D75BBBC9}.LocalCBR|Any CPU.Deploy.0 = Debug|Any CPU
+		{62FE8FB8-D320-4A60-B265-A219D75BBBC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62FE8FB8-D320-4A60-B265-A219D75BBBC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62FE8FB8-D320-4A60-B265-A219D75BBBC9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{96D7BC34-DEFB-4059-BF63-8A4F711313D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D7BC34-DEFB-4059-BF63-8A4F711313D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D7BC34-DEFB-4059-BF63-8A4F711313D9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{96D7BC34-DEFB-4059-BF63-8A4F711313D9}.LocalCBR|Any CPU.ActiveCfg = LocalCBR|Any CPU
+		{96D7BC34-DEFB-4059-BF63-8A4F711313D9}.LocalCBR|Any CPU.Build.0 = LocalCBR|Any CPU
+		{96D7BC34-DEFB-4059-BF63-8A4F711313D9}.LocalCBR|Any CPU.Deploy.0 = LocalCBR|Any CPU
+		{96D7BC34-DEFB-4059-BF63-8A4F711313D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D7BC34-DEFB-4059-BF63-8A4F711313D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96D7BC34-DEFB-4059-BF63-8A4F711313D9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A2C653D-4CA5-444F-91A7-AD2BD5B614EC} = {E6663DC4-35A7-43B7-BC84-DE5E9E23DA01}
+		{6DF5EDF0-20C0-40C1-B0FA-3244444ACA4D} = {E6663DC4-35A7-43B7-BC84-DE5E9E23DA01}
+		{ACBFE8D8-E96B-49C9-A91D-F43D8C582864} = {688256FB-C5FC-4A21-9A57-F2E9ED432E7D}
+		{688256FB-C5FC-4A21-9A57-F2E9ED432E7D} = {B71BDBF1-F1CD-40AF-868A-6778E48D3514}
+		{62FE8FB8-D320-4A60-B265-A219D75BBBC9} = {688256FB-C5FC-4A21-9A57-F2E9ED432E7D}
+		{96D7BC34-DEFB-4059-BF63-8A4F711313D9} = {688256FB-C5FC-4A21-9A57-F2E9ED432E7D}
+		{19AE2918-8EA9-461E-A8B5-2EFCF80AACEC} = {22E9CCA6-105C-4B46-8696-323F3D682FE1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68A232CE-1489-4ED8-8D8D-53CC9E957F89}
+	EndGlobalSection
+EndGlobal

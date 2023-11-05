@@ -1,0 +1,134 @@
+----item----
+version: 1
+id: {8740DD9F-956A-47E3-A570-4B15FEF69CF5}
+database: master
+path: /sitecore/Forms/Testform for A11Y/Page/Honeypot
+parent: {092F4CD9-98E8-46C5-927F-17FBBE8BED85}
+name: Honeypot
+master: {00000000-0000-0000-0000-000000000000}
+template: {3ABEF231-CCE2-4027-B405-566F5C1AD7C8}
+templatekey: Honeypot
+created: 20231105T134231Z
+
+----field----
+field: {ECD17630-5F51-45DB-B52F-B3DFAEC4FA1B}
+name: Store Binding Value
+key: store binding value
+content-length: 0
+
+
+----field----
+field: {589A7ADE-81D4-4A60-B9E2-7EAF6AE8A563}
+name: Field Type
+key: field type
+content-length: 38
+
+{5BCD170A-2119-4388-B271-6658C941EF51}
+----field----
+field: {84ECE662-5034-40CB-9C60-744DB64BB294}
+name: Field Key
+key: field key
+content-length: 32
+
+1488CE3325C54135B06D61E08EAEC1BE
+----field----
+field: {71C6DE8E-4718-4977-B83E-B49552EE14B0}
+name: Conditions
+key: conditions
+content-length: 22
+
+{"fieldConditions":[]}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+1100
+----version----
+language: de-DE
+version: 1
+revision: 071e632f-9302-478b-9c3d-4d57e48f35cc
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20221114T213937Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+071e632f-9302-478b-9c3d-4d57e48f35cc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20231105T133016Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 37f0b005-8bbf-468e-a4a2-cca8a2503679
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20231105T133031Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+37f0b005-8bbf-468e-a4a2-cca8a2503679
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20231105T134231Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

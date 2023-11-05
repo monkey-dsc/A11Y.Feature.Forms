@@ -1,0 +1,18 @@
+﻿@using A11Y.Feature.Forms.Helpers
+@model A11Y.Feature.Forms.Models.A11YHoneypotFieldViewModel
+@if (Html.Sitecore().IsExperienceFormsEditMode())
+{
+    <div class="form-group">
+        <p class="form-control">
+            Honeypot Field
+        </p>
+    </div>
+}
+else
+{
+    <!-- We need to put extra div with tabindex=-1 because sitecore SXA accessibility script replace tabindex -1 with 0 and activate first element on a page that have tab index attribute
+         Source code : accessibility.js
+        -->
+    <div tabindex="-1" style="display:none;"></div>
+    <input id="@Html.IdFor(m => Model.Value)" name="@Html.NameFor(m => Model.Value)" class="ohnohoney" value="" aria-hidden="true" tabindex="-1" />
+}

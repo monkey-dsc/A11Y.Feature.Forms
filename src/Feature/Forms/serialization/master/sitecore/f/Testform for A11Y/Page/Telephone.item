@@ -1,0 +1,162 @@
+----item----
+version: 1
+id: {55602D3D-5443-4BB7-BC4E-3AC453DBEB60}
+database: master
+path: /sitecore/Forms/Testform for A11Y/Page/Telephone
+parent: {092F4CD9-98E8-46C5-927F-17FBBE8BED85}
+name: Telephone
+master: {00000000-0000-0000-0000-000000000000}
+template: {1FBBE19B-3314-4449-A8BA-74AA26F66508}
+templatekey: Input
+created: 20231105T134230Z
+
+----field----
+field: {22D78975-2596-4642-8573-1C27EA5EF7C4}
+name: Autocomplete Item Id
+key: autocomplete item id
+content-length: 38
+
+{8C60FC2C-CB03-4AC7-94CB-A13CF552A45F}
+----field----
+field: {A2228551-4973-40BA-98D1-25D22C274D68}
+name: Autocomplete Combined Item Id
+key: autocomplete combined item id
+content-length: 38
+
+{F069D467-646C-4C63-AA48-9C523DA16B02}
+----field----
+field: {894BFDD1-B89A-4AF1-8A5B-13CBB1AE1C23}
+name: Min Length
+key: min length
+content-length: 1
+
+0
+----field----
+field: {8A43AF61-0812-4B37-A343-96CDE3F12BB1}
+name: Required
+key: required
+content-length: 1
+
+1
+----field----
+field: {589A7ADE-81D4-4A60-B9E2-7EAF6AE8A563}
+name: Field Type
+key: field type
+content-length: 38
+
+{D5452207-A6AB-4DD7-8EA3-40A2B72A688D}
+----field----
+field: {84ECE662-5034-40CB-9C60-744DB64BB294}
+name: Field Key
+key: field key
+content-length: 32
+
+2CE6D6E7D7AD45A2A0D41FDC5CAEA9CF
+----field----
+field: {71C6DE8E-4718-4977-B83E-B49552EE14B0}
+name: Conditions
+key: conditions
+content-length: 22
+
+{"fieldConditions":[]}
+----version----
+language: de-DE
+version: 1
+revision: 6bcafd20-5858-49e8-8178-d3505ee798a2
+
+----field----
+field: {71FFD7B2-8B09-4F7B-8A66-1E4CEF653E8D}
+name: Title
+key: title
+content-length: 7
+
+Telefon
+----field----
+field: {7E66F013-0767-4551-80C8-16073B491BBD}
+name: Required Field Message
+key: required field message
+content-length: 32
+
+Telefon sollte ausgefüllt werden
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20221114T205023Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6bcafd20-5858-49e8-8178-d3505ee798a2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20231105T133016Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: fed671b5-6199-427e-917d-9446acef489e
+
+----field----
+field: {71FFD7B2-8B09-4F7B-8A66-1E4CEF653E8D}
+name: Title
+key: title
+content-length: 5
+
+Phone
+----field----
+field: {7E66F013-0767-4551-80C8-16073B491BBD}
+name: Required Field Message
+key: required field message
+content-length: 26
+
+Phone is required for A11Y
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20231105T133031Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fed671b5-6199-427e-917d-9446acef489e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20231105T134230Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

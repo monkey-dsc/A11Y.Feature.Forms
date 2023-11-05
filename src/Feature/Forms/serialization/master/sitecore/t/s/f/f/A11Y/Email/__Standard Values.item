@@ -1,0 +1,106 @@
+----item----
+version: 1
+id: {65FD1511-5D99-4224-AF07-C052CD1BA919}
+database: master
+path: /sitecore/templates/System/Forms/Fields/A11Y/Email/__Standard Values
+parent: {884386FD-B983-4B6A-BB2D-B64E4A392326}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {884386FD-B983-4B6A-BB2D-B64E4A392326}
+templatekey: Email
+created: 20221114T132434Z
+
+----field----
+field: {10E5829A-1943-4597-B9EE-406CE3D13E13}
+name: Validations
+key: validations
+content-length: 38
+
+{9BAE3E9A-D89F-4F93-9577-68B5E9D44A38}
+----field----
+field: {589A7ADE-81D4-4A60-B9E2-7EAF6AE8A563}
+name: Field Type
+key: field type
+content-length: 38
+
+{04C39CAC-8976-4910-BE0D-879ED3368429}
+----version----
+language: de-DE
+version: 1
+revision: 6c260767-5a17-47f0-ba21-9bbb552c62c6
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200512T154720Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6c260767-5a17-47f0-ba21-9bbb552c62c6
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20221114T133348Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: en
+version: 1
+revision: f904f969-edf4-4c23-94d5-df7db64451c9
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170724T091712Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f904f969-edf4-4c23-94d5-df7db64451c9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20221114T133348Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

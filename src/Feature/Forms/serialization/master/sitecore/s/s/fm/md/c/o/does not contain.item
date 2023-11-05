@@ -1,0 +1,134 @@
+----item----
+version: 1
+id: {45AAB0FB-775B-40F5-B3B8-7CAE3ABBF643}
+database: master
+path: /sitecore/system/Settings/Forms/Meta Data/Conditions/Operators/does not contain
+parent: {3F250FFD-1A4E-43C9-B336-E44E7F4953DE}
+name: does not contain
+master: {00000000-0000-0000-0000-000000000000}
+template: {7370EA6C-E815-43E1-A2A2-68828904EB99}
+templatekey: Operator
+created: 20190510T091725Z
+
+----field----
+field: {92377481-AACB-4EAD-B347-84B6441C5EBB}
+name: Allowed Field Types
+key: allowed field types
+content-length: 194
+
+{B67C70C1-6776-4BCB-8529-AA28E02F6412}|{F5C82C0F-05BE-45F6-8DEC-4E53DEBDEEC2}|{6BE65ED4-8DE5-4F46-A15B-490CB88E0E5D}|{1B8FBE58-1E44-4ACF-B97D-1A89668E3E84}|{D5452207-A6AB-4DD7-8EA3-40A2B72A688D}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+300
+----version----
+language: de-DE
+version: 1
+revision: 8555092d-8da3-4409-8056-72244c0c1e97
+
+----field----
+field: {FFD9BCF2-B4B0-4D24-8BD0-952C7DF05A3B}
+name: Text
+key: text
+content-length: 24
+
+[Feld] [Operator] [Wert]
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 13
+
+enthält nicht
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20190328T132445Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8555092d-8da3-4409-8056-72244c0c1e97
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20190328T132445Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: en
+version: 1
+revision: 854fd958-422c-4743-96cd-fcbdc4e87488
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20180220T101951Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+854fd958-422c-4743-96cd-fcbdc4e87488
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210617T065929Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

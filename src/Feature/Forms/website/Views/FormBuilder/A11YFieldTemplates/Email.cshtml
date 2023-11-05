@@ -1,0 +1,30 @@
+@using A11Y.Feature.Forms.Dtos
+@using A11Y.Feature.Forms.Extensions
+@using A11Y.Feature.Forms.Helpers
+@using A11Y.Feature.Forms.Shared.Constants
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+@model A11Y.Feature.Forms.Models.A11YStringInputViewModel
+@{
+    var requiredMarker = Model.Required ? "*" : string.Empty;
+    var attributesToReplace = new Dictionary<string, bool> {{"data-val-required", !Model.RequiredFieldMessage.IsNullOrWhiteSpace()}};
+}
+<div class="form-group">
+    <label for="@Html.IdFor(m => Model.Value)" class="@Model.LabelCssClass">
+        @if (Html.Sitecore().IsExperienceFormsEditMode())
+        {
+            @Html.DisplayTextFor(t => Model.Title) @requiredMarker
+        }
+        else
+        {
+            @Html.Sxa().Field(Templates.LabelSettings.Fields.TitleId, Sitecore.Context.Database.Items.GetItem(Model.ItemId), new A11YRenderingParameterDto { ShowTextAsRaw = true })
+            @requiredMarker
+        }
+    </label>
+    <div class="@Model.CssClass"
+         aria-live="polite"
+         aria-relevant="additions text"
+         role="alertdialog">
+        <input aria-describedby="@Html.IdFor(m => Model.Value)" id="@Html.IdFor(m => Model.Value)" name="@Html.NameFor(m => Model.Value)" class="form-control email" type="email" value="@Model.Value" @if (Model.MaxLength > 0) { <text> maxlength="@Model.MaxLength" </text> } placeholder="@Model.PlaceholderText" @if (Model.HasAutocomplete) { <text> autocomplete="@Model.AutocompleteValue" </text> } @if (Model.Required) { if (!string.IsNullOrEmpty(Model.RequiredFieldMessage)) { <text> data-val-required="@Model.RequiredFieldMessage" aria-required="true" </text> } } data-sc-tracking="@Model.IsTrackingEnabled" data-sc-field-name="@Model.Name" data-sc-field-key="@Model.ConditionSettings.FieldKey" @Html.GenerateUnobtrusiveValidationAttributes(m => m.Value, attributesToReplace)/>
+        @Html.ValidationMessageFor(m => Model.Value)
+    </div>
+</div>

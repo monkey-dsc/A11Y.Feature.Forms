@@ -1,0 +1,849 @@
+----item----
+version: 1
+id: {B51441EF-BB04-404D-A0CB-A7132330BA57}
+database: core
+path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/A11Y/A11Y CheckboxList/ListItems/DatasourceManager
+parent: {DD695D02-D1E8-4EF0-8E61-6787F401CF2F}
+name: DatasourceManager
+master: {00000000-0000-0000-0000-000000000000}
+template: {74874973-688F-4B39-97A0-B0E275234151}
+templatekey: FormDatasourceManager-Parameters
+created: 20221110T220639Z
+
+----field----
+field: {0B6B2D34-5308-4AA8-B59D-85BA47E8B8AA}
+name: ValueFieldName
+key: valuefieldname
+content-length: 6
+
+itemId
+----field----
+field: {AE95C662-AF6A-4156-862D-82924AB52C42}
+name: DisplayFieldName
+key: displayfieldname
+content-length: 4
+
+text
+----field----
+field: {3E079FC3-6B2D-41C9-9204-374A786FC761}
+name: BindingConfiguration
+key: bindingconfiguration
+content-length: 137
+
+isDynamic=IsDynamic&dataSource=CompDatasourceGuid&displayFieldName=CompDisplayFieldName&valueFieldName=CompValueFieldName&items=CompItems
+----field----
+field: {69D7BA1A-DA12-4B61-8B7F-31D9B60BBA26}
+name: MultipleSelection
+key: multipleselection
+content-length: 1
+
+1
+----field----
+field: {F0D86BC8-02B7-4531-85B5-E0F1BB30365A}
+name: DynamicButtonTextBoxClick
+key: dynamicbuttontextboxclick
+content-length: 32
+
+trigger:dynamicdatasource:Select
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----version----
+language: da
+version: 1
+revision: c6faa50b-5985-40d0-b73b-cf468e2131db
+
+----field----
+field: {E1939D68-4C18-4BC7-A3E0-BB549A610F68}
+name: DynamicLabelForSelectDatasource
+key: dynamiclabelforselectdatasource
+content-length: 14
+
+Vælg datakilde
+----field----
+field: {96147A51-1C94-449B-9C08-8F3501E45F8C}
+name: DynamicLabelForValueField
+key: dynamiclabelforvaluefield
+content-length: 9
+
+Værdifelt
+----field----
+field: {A62DB8BE-5921-4B5C-9561-82880747C8A3}
+name: DynamicLabelForTextField
+key: dynamiclabelfortextfield
+content-length: 9
+
+Tekstfelt
+----field----
+field: {14C132F2-0889-49B4-8483-B491F2653922}
+name: DynamicLabelForValueNotInList
+key: dynamiclabelforvaluenotinlist
+content-length: 27
+
+værdi er ikke på valglisten
+----field----
+field: {77A93782-3D51-4BEB-BE59-166DE453FB76}
+name: DynamicLabelForSelection
+key: dynamiclabelforselection
+content-length: 25
+
+Valgte afkrydsningsfelter
+----field----
+field: {F4115104-067A-4EB0-8624-DDCAA26BA908}
+name: StaticLabelForEditComponent
+key: staticlabelforeditcomponent
+content-length: 16
+
+Afkrydsningsfelt
+----field----
+field: {30DC8497-DF40-4E85-9DEE-EB0431F1FE40}
+name: StaticLabelForKey
+key: staticlabelforkey
+content-length: 5
+
+label
+----field----
+field: {5D9D534E-B6E6-4D92-A18B-D4544037D4AE}
+name: StaticLabelForValue
+key: staticlabelforvalue
+content-length: 5
+
+Værdi
+----field----
+field: {F6E9CF38-7A62-4975-B9E7-E79063C9FF9B}
+name: StaticLabelForAddNew
+key: staticlabelforaddnew
+content-length: 9
+
+Tilføj ny
+----field----
+field: {56B82870-4F82-4DC3-AE8B-B3A6D151DC02}
+name: StaticLabelForValueModeDropDown
+key: staticlabelforvaluemodedropdown
+content-length: 28
+
+Værdier for afkrydsningsfelt
+----field----
+field: {CE629DC2-B84E-4BFA-BA36-02D7674C7A31}
+name: StaticLabelForValueModeOptionSameAsLabels
+key: staticlabelforvaluemodeoptionsameaslabels
+content-length: 16
+
+Samme som labels
+----field----
+field: {E2624154-7645-45C9-9485-3913776E223F}
+name: StaticLabelForValueModeOptionCustom
+key: staticlabelforvaluemodeoptioncustom
+content-length: 9
+
+Tilpasset
+----field----
+field: {86FBCE0A-FABD-4E18-9DA3-2FE266B5AA23}
+name: StaticLabelForSelection
+key: staticlabelforselection
+content-length: 25
+
+Valgte afkrydsningsfelter
+----field----
+field: {C1BEF3D0-31DB-4E0A-985A-8D951FA9C421}
+name: StaticWatermarkForLabels
+key: staticwatermarkforlabels
+content-length: 39
+
+Skriv label for afkrydsningsfelt her...
+----field----
+field: {22387881-2DCE-40C5-B011-3283D4704562}
+name: StaticWatermarkForValues
+key: staticwatermarkforvalues
+content-length: 39
+
+Skriv værdi for afkrydsningsfelt her...
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 16
+
+DatakildeManager
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20181101T100303Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c6faa50b-5985-40d0-b73b-cf468e2131db
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20181101T100303Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: de-DE
+version: 1
+revision: 3100b633-ddb7-4574-9d67-917ee54ec98f
+
+----field----
+field: {E1939D68-4C18-4BC7-A3E0-BB549A610F68}
+name: DynamicLabelForSelectDatasource
+key: dynamiclabelforselectdatasource
+content-length: 21
+
+Datenquelle auswählen
+----field----
+field: {96147A51-1C94-449B-9C08-8F3501E45F8C}
+name: DynamicLabelForValueField
+key: dynamiclabelforvaluefield
+content-length: 9
+
+Wert Feld
+----field----
+field: {A62DB8BE-5921-4B5C-9561-82880747C8A3}
+name: DynamicLabelForTextField
+key: dynamiclabelfortextfield
+content-length: 8
+
+Textfeld
+----field----
+field: {14C132F2-0889-49B4-8483-B491F2653922}
+name: DynamicLabelForValueNotInList
+key: dynamiclabelforvaluenotinlist
+content-length: 44
+
+Wert istK200:K1279 nicht in der Auswahlliste
+----field----
+field: {77A93782-3D51-4BEB-BE59-166DE453FB76}
+name: DynamicLabelForSelection
+key: dynamiclabelforselection
+content-length: 22
+
+Ausgewählte Checkboxes
+----field----
+field: {F4115104-067A-4EB0-8624-DDCAA26BA908}
+name: StaticLabelForEditComponent
+key: staticlabelforeditcomponent
+content-length: 8
+
+Checkbox
+----field----
+field: {30DC8497-DF40-4E85-9DEE-EB0431F1FE40}
+name: StaticLabelForKey
+key: staticlabelforkey
+content-length: 5
+
+Label
+----field----
+field: {5D9D534E-B6E6-4D92-A18B-D4544037D4AE}
+name: StaticLabelForValue
+key: staticlabelforvalue
+content-length: 4
+
+Wert
+----field----
+field: {F6E9CF38-7A62-4975-B9E7-E79063C9FF9B}
+name: StaticLabelForAddNew
+key: staticlabelforaddnew
+content-length: 14
+
+Neu hinzufügen
+----field----
+field: {56B82870-4F82-4DC3-AE8B-B3A6D151DC02}
+name: StaticLabelForValueModeDropDown
+key: staticlabelforvaluemodedropdown
+content-length: 14
+
+Checkbox Werte
+----field----
+field: {CE629DC2-B84E-4BFA-BA36-02D7674C7A31}
+name: StaticLabelForValueModeOptionSameAsLabels
+key: staticlabelforvaluemodeoptionsameaslabels
+content-length: 16
+
+Gleich wie Label
+----field----
+field: {E2624154-7645-45C9-9485-3913776E223F}
+name: StaticLabelForValueModeOptionCustom
+key: staticlabelforvaluemodeoptioncustom
+content-length: 17
+
+Benutzerdefiniert
+----field----
+field: {86FBCE0A-FABD-4E18-9DA3-2FE266B5AA23}
+name: StaticLabelForSelection
+key: staticlabelforselection
+content-length: 22
+
+Ausgewählte Checkboxes
+----field----
+field: {C1BEF3D0-31DB-4E0A-985A-8D951FA9C421}
+name: StaticWatermarkForLabels
+key: staticwatermarkforlabels
+content-length: 30
+
+Checkbox Label hier eintragen…
+----field----
+field: {22387881-2DCE-40C5-B011-3283D4704562}
+name: StaticWatermarkForValues
+key: staticwatermarkforvalues
+content-length: 29
+
+Checkbox Wert hier eintragen…
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 18
+
+DatenquelleManager
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20181101T100601Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3100b633-ddb7-4574-9d67-917ee54ec98f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200507T155936Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: en
+version: 1
+revision: 1ce135d0-724c-4165-aa8b-93542d93aef2
+
+----field----
+field: {E1939D68-4C18-4BC7-A3E0-BB549A610F68}
+name: DynamicLabelForSelectDatasource
+key: dynamiclabelforselectdatasource
+content-length: 17
+
+Select datasource
+----field----
+field: {48EE32FA-0BDB-4D47-89D0-383A0CB4E71B}
+name: DynamicLabelForButton
+key: dynamiclabelforbutton
+content-length: 3
+
+...
+----field----
+field: {96147A51-1C94-449B-9C08-8F3501E45F8C}
+name: DynamicLabelForValueField
+key: dynamiclabelforvaluefield
+content-length: 11
+
+Value field
+----field----
+field: {A62DB8BE-5921-4B5C-9561-82880747C8A3}
+name: DynamicLabelForTextField
+key: dynamiclabelfortextfield
+content-length: 10
+
+Text field
+----field----
+field: {14C132F2-0889-49B4-8483-B491F2653922}
+name: DynamicLabelForValueNotInList
+key: dynamiclabelforvaluenotinlist
+content-length: 31
+
+value not in the selection list
+----field----
+field: {77A93782-3D51-4BEB-BE59-166DE453FB76}
+name: DynamicLabelForSelection
+key: dynamiclabelforselection
+content-length: 19
+
+Selected checkboxes
+----field----
+field: {F4115104-067A-4EB0-8624-DDCAA26BA908}
+name: StaticLabelForEditComponent
+key: staticlabelforeditcomponent
+content-length: 8
+
+Checkbox
+----field----
+field: {30DC8497-DF40-4E85-9DEE-EB0431F1FE40}
+name: StaticLabelForKey
+key: staticlabelforkey
+content-length: 5
+
+label
+----field----
+field: {5D9D534E-B6E6-4D92-A18B-D4544037D4AE}
+name: StaticLabelForValue
+key: staticlabelforvalue
+content-length: 5
+
+Value
+----field----
+field: {F6E9CF38-7A62-4975-B9E7-E79063C9FF9B}
+name: StaticLabelForAddNew
+key: staticlabelforaddnew
+content-length: 7
+
+Add new
+----field----
+field: {56B82870-4F82-4DC3-AE8B-B3A6D151DC02}
+name: StaticLabelForValueModeDropDown
+key: staticlabelforvaluemodedropdown
+content-length: 15
+
+Checkbox values
+----field----
+field: {CE629DC2-B84E-4BFA-BA36-02D7674C7A31}
+name: StaticLabelForValueModeOptionSameAsLabels
+key: staticlabelforvaluemodeoptionsameaslabels
+content-length: 14
+
+Same as labels
+----field----
+field: {E2624154-7645-45C9-9485-3913776E223F}
+name: StaticLabelForValueModeOptionCustom
+key: staticlabelforvaluemodeoptioncustom
+content-length: 10
+
+Customized
+----field----
+field: {86FBCE0A-FABD-4E18-9DA3-2FE266B5AA23}
+name: StaticLabelForSelection
+key: staticlabelforselection
+content-length: 19
+
+Selected checkboxes
+----field----
+field: {C1BEF3D0-31DB-4E0A-985A-8D951FA9C421}
+name: StaticWatermarkForLabels
+key: staticwatermarkforlabels
+content-length: 28
+
+Write checkbox label here...
+----field----
+field: {22387881-2DCE-40C5-B011-3283D4704562}
+name: StaticWatermarkForValues
+key: staticwatermarkforvalues
+content-length: 28
+
+Write checkbox value here...
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170221T114519Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1ce135d0-724c-4165-aa8b-93542d93aef2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170720T102030Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: ja-JP
+version: 1
+revision: 664166f7-8db2-4274-a43b-04b51b9d3f76
+
+----field----
+field: {E1939D68-4C18-4BC7-A3E0-BB549A610F68}
+name: DynamicLabelForSelectDatasource
+key: dynamiclabelforselectdatasource
+content-length: 9
+
+データソースを選択
+----field----
+field: {96147A51-1C94-449B-9C08-8F3501E45F8C}
+name: DynamicLabelForValueField
+key: dynamiclabelforvaluefield
+content-length: 6
+
+値フィールド
+----field----
+field: {A62DB8BE-5921-4B5C-9561-82880747C8A3}
+name: DynamicLabelForTextField
+key: dynamiclabelfortextfield
+content-length: 10
+
+テキスト フィールド
+----field----
+field: {14C132F2-0889-49B4-8483-B491F2653922}
+name: DynamicLabelForValueNotInList
+key: dynamiclabelforvaluenotinlist
+content-length: 13
+
+セクション リストにない値
+----field----
+field: {77A93782-3D51-4BEB-BE59-166DE453FB76}
+name: DynamicLabelForSelection
+key: dynamiclabelforselection
+content-length: 13
+
+選択されたチェックボックス
+----field----
+field: {F4115104-067A-4EB0-8624-DDCAA26BA908}
+name: StaticLabelForEditComponent
+key: staticlabelforeditcomponent
+content-length: 8
+
+チェックボックス
+----field----
+field: {30DC8497-DF40-4E85-9DEE-EB0431F1FE40}
+name: StaticLabelForKey
+key: staticlabelforkey
+content-length: 3
+
+ラベル
+----field----
+field: {5D9D534E-B6E6-4D92-A18B-D4544037D4AE}
+name: StaticLabelForValue
+key: staticlabelforvalue
+content-length: 1
+
+値
+----field----
+field: {F6E9CF38-7A62-4975-B9E7-E79063C9FF9B}
+name: StaticLabelForAddNew
+key: staticlabelforaddnew
+content-length: 4
+
+新規追加
+----field----
+field: {56B82870-4F82-4DC3-AE8B-B3A6D151DC02}
+name: StaticLabelForValueModeDropDown
+key: staticlabelforvaluemodedropdown
+content-length: 10
+
+チェックボックスの値
+----field----
+field: {CE629DC2-B84E-4BFA-BA36-02D7674C7A31}
+name: StaticLabelForValueModeOptionSameAsLabels
+key: staticlabelforvaluemodeoptionsameaslabels
+content-length: 6
+
+ラベルと同じ
+----field----
+field: {E2624154-7645-45C9-9485-3913776E223F}
+name: StaticLabelForValueModeOptionCustom
+key: staticlabelforvaluemodeoptioncustom
+content-length: 8
+
+カスタマイズ済み
+----field----
+field: {86FBCE0A-FABD-4E18-9DA3-2FE266B5AA23}
+name: StaticLabelForSelection
+key: staticlabelforselection
+content-length: 13
+
+選択されたチェックボックス
+----field----
+field: {C1BEF3D0-31DB-4E0A-985A-8D951FA9C421}
+name: StaticWatermarkForLabels
+key: staticwatermarkforlabels
+content-length: 21
+
+ここにチェックボックス ラベルを登録...
+----field----
+field: {22387881-2DCE-40C5-B011-3283D4704562}
+name: StaticWatermarkForValues
+key: staticwatermarkforvalues
+content-length: 19
+
+ここにチェックボックスの値を登録...
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 13
+
+データソース マネージャー
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20181101T100836Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+664166f7-8db2-4274-a43b-04b51b9d3f76
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20181101T100836Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: zh-CN
+version: 1
+revision: 1232819d-5c32-4f78-974e-ca3e7eab46bf
+
+----field----
+field: {E1939D68-4C18-4BC7-A3E0-BB549A610F68}
+name: DynamicLabelForSelectDatasource
+key: dynamiclabelforselectdatasource
+content-length: 5
+
+选择数据源
+----field----
+field: {96147A51-1C94-449B-9C08-8F3501E45F8C}
+name: DynamicLabelForValueField
+key: dynamiclabelforvaluefield
+content-length: 3
+
+值字段
+----field----
+field: {A62DB8BE-5921-4B5C-9561-82880747C8A3}
+name: DynamicLabelForTextField
+key: dynamiclabelfortextfield
+content-length: 3
+
+文本域
+----field----
+field: {14C132F2-0889-49B4-8483-B491F2653922}
+name: DynamicLabelForValueNotInList
+key: dynamiclabelforvaluenotinlist
+content-length: 8
+
+值不在选择列表中
+----field----
+field: {77A93782-3D51-4BEB-BE59-166DE453FB76}
+name: DynamicLabelForSelection
+key: dynamiclabelforselection
+content-length: 5
+
+选中复选框
+----field----
+field: {F4115104-067A-4EB0-8624-DDCAA26BA908}
+name: StaticLabelForEditComponent
+key: staticlabelforeditcomponent
+content-length: 3
+
+复选框
+----field----
+field: {30DC8497-DF40-4E85-9DEE-EB0431F1FE40}
+name: StaticLabelForKey
+key: staticlabelforkey
+content-length: 2
+
+标签
+----field----
+field: {5D9D534E-B6E6-4D92-A18B-D4544037D4AE}
+name: StaticLabelForValue
+key: staticlabelforvalue
+content-length: 1
+
+值
+----field----
+field: {F6E9CF38-7A62-4975-B9E7-E79063C9FF9B}
+name: StaticLabelForAddNew
+key: staticlabelforaddnew
+content-length: 2
+
+添加
+----field----
+field: {56B82870-4F82-4DC3-AE8B-B3A6D151DC02}
+name: StaticLabelForValueModeDropDown
+key: staticlabelforvaluemodedropdown
+content-length: 4
+
+复选框值
+----field----
+field: {CE629DC2-B84E-4BFA-BA36-02D7674C7A31}
+name: StaticLabelForValueModeOptionSameAsLabels
+key: staticlabelforvaluemodeoptionsameaslabels
+content-length: 5
+
+与标签相同
+----field----
+field: {E2624154-7645-45C9-9485-3913776E223F}
+name: StaticLabelForValueModeOptionCustom
+key: staticlabelforvaluemodeoptioncustom
+content-length: 2
+
+定制
+----field----
+field: {86FBCE0A-FABD-4E18-9DA3-2FE266B5AA23}
+name: StaticLabelForSelection
+key: staticlabelforselection
+content-length: 5
+
+选中复选框
+----field----
+field: {C1BEF3D0-31DB-4E0A-985A-8D951FA9C421}
+name: StaticWatermarkForLabels
+key: staticwatermarkforlabels
+content-length: 12
+
+在此写入复选框标签...
+----field----
+field: {22387881-2DCE-40C5-B011-3283D4704562}
+name: StaticWatermarkForValues
+key: staticwatermarkforvalues
+content-length: 11
+
+在此写入复选框值...
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 6
+
+数据源管理器
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20181101T101118Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+1232819d-5c32-4f78-974e-ca3e7eab46bf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20181101T101118Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

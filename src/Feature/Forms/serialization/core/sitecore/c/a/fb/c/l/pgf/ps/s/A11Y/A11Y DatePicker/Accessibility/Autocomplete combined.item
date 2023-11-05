@@ -1,0 +1,127 @@
+----item----
+version: 1
+id: {F1E5386A-E407-4314-805D-EE57A304B9A4}
+database: core
+path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/A11Y/A11Y DatePicker/Accessibility/Autocomplete combined
+parent: {2662510D-6A24-4499-8213-8365577A00E4}
+name: Autocomplete combined
+master: {00000000-0000-0000-0000-000000000000}
+template: {4640F8F6-FF25-4615-8A40-FE9F0C87225E}
+templatekey: FormDropList Parameters
+created: 20221110T220713Z
+
+----field----
+field: {0B6B2D34-5308-4AA8-B59D-85BA47E8B8AA}
+name: ValueFieldName
+key: valuefieldname
+content-length: 0
+
+
+----field----
+field: {19B597D3-2EDD-4AE2-AEFE-4A94C7F10E31}
+name: __Source Item
+key: __source item
+content-length: 54
+
+sitecore://core/{5393060E-F9F6-403A-A767-32848C957B6E}
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 0
+
+
+----version----
+language: de-DE
+version: 1
+revision: cc0d96ad-d1de-4ff9-8640-7c0e2dc30058
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200511T185926Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cc0d96ad-d1de-4ff9-8640-7c0e2dc30058
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20231105T131049Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: 490696dc-af39-4c88-b7d0-70ca56043bc4
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200511T185926Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+490696dc-af39-4c88-b7d0-70ca56043bc4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200511T185926Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 0
+
+

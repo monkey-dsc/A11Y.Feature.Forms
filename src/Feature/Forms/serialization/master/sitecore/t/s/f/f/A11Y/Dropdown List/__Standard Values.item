@@ -1,0 +1,92 @@
+----item----
+version: 1
+id: {9B9CBB65-46E4-4088-BB9A-D59D4B7DB0C3}
+database: master
+path: /sitecore/templates/System/Forms/Fields/A11Y/Dropdown List/__Standard Values
+parent: {A6044FC0-3D92-4ED1-BB06-7A30169FD647}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {A6044FC0-3D92-4ED1-BB06-7A30169FD647}
+templatekey: Dropdown List
+created: 20221114T132419Z
+
+----field----
+field: {64397CAF-FEAA-416F-A93E-8AC8A9F06D2A}
+name: Show Empty Item
+key: show empty item
+content-length: 1
+
+1
+----version----
+language: de-DE
+version: 1
+revision: a9b8b2af-2819-419c-ab81-8c2bbe90633b
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200512T154816Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a9b8b2af-2819-419c-ab81-8c2bbe90633b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20221114T133201Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: en
+version: 1
+revision: cb3da6af-ef7f-4879-96a8-d8786c021262
+
+----field----
+field: {71FFD7B2-8B09-4F7B-8A66-1E4CEF653E8D}
+name: Title
+key: title
+content-length: 5
+
+Label
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20161125T102906Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+cb3da6af-ef7f-4879-96a8-d8786c021262
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20221114T133201Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

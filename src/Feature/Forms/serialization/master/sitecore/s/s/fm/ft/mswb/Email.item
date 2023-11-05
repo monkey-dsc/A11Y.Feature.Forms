@@ -1,0 +1,345 @@
+----item----
+version: 1
+id: {1B8FBE58-1E44-4ACF-B97D-1A89668E3E84}
+database: master
+path: /sitecore/system/Settings/Forms/Field Types/A11Y Basic/Email
+parent: {918CAEF7-1E38-4D07-9C4D-4F552DCD0D42}
+name: Email
+master: {00000000-0000-0000-0000-000000000000}
+template: {A60EDCAF-1285-46B5-8380-D790BB8C8708}
+templatekey: Field Type
+created: 20200507T084340Z
+
+----field----
+field: {12594037-53E5-44C0-AD63-DEB52DEAD374}
+name: View Path
+key: view path
+content-length: 24
+
+A11YFieldTemplates/Email
+----field----
+field: {16882A65-D10B-4E9E-9D6A-B13480A34F2D}
+name: Model Type
+key: model type
+content-length: 69
+
+A11Y.Feature.Forms.Models.A11YStringInputViewModel,A11Y.Feature.Forms
+----field----
+field: {B63DF058-0F28-469C-AA25-E228690462AC}
+name: Allowed Validations
+key: allowed validations
+content-length: 77
+
+{9BAE3E9A-D89F-4F93-9577-68B5E9D44A38}|{83E96D09-11C8-4132-8A8A-76D8DB8208D6}
+----field----
+field: {73F3C325-9B2A-4854-B698-038E06887FCD}
+name: Property Editor
+key: property editor
+content-length: 38
+
+{A014B5DB-67FB-497D-B54E-985F8919BB88}
+----field----
+field: {F2322BB9-BF52-45A6-A969-AC3735CC7CBF}
+name: Field Template
+key: field template
+content-length: 38
+
+{884386FD-B983-4B6A-BB2D-B64E4A392326}
+----field----
+field: {8F40D151-4155-4564-B343-FA445410E3E0}
+name: Icon
+key: icon
+content-length: 26
+
+OfficeWhite/32x32/mail.png
+----field----
+field: {8E45815D-ADCD-4DD9-9E20-FEFDB01AAD8A}
+name: BackgroundColor
+key: backgroundcolor
+content-length: 3
+
+Sky
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 21
+
+Office/32x32/mail.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+250
+----version----
+language: da
+version: 1
+revision: a02695f6-8d1b-421e-8287-f8a7933a554f
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 13
+
+E-mail (A11Y)
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20181101T100438Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a02695f6-8d1b-421e-8287-f8a7933a554f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20221114T202907Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: de-DE
+version: 1
+revision: 3b125038-30d3-4bec-aaef-b5928669ae5a
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 13
+
+E-Mail (A11Y)
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20181101T100720Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3b125038-30d3-4bec-aaef-b5928669ae5a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20221114T203621Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: en
+version: 1
+revision: 831983c9-25ac-480b-b2a5-7645e2be9ef1
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 12
+
+Email (A11Y)
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160603T112202Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+831983c9-25ac-480b-b2a5-7645e2be9ef1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20221114T202822Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: ja-JP
+version: 1
+revision: a7e121e1-363d-4ab4-aa9d-0b2489847c60
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 17
+
+電子メール アドレス (A11Y)
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20181101T101006Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a7e121e1-363d-4ab4-aa9d-0b2489847c60
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20221114T202852Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: zh-CN
+version: 1
+revision: f8be3883-3039-4c48-9566-2a2ae91a4fac
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 11
+
+电子邮件 (A11Y)
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20181101T101251Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f8be3883-3039-4c48-9566-2a2ae91a4fac
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20221114T202837Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

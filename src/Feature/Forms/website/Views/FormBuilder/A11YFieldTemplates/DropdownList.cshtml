@@ -1,0 +1,39 @@
+@using A11Y.Feature.Forms.Dtos
+@using A11Y.Feature.Forms.Extensions
+@using A11Y.Feature.Forms.Helpers
+@using A11Y.Feature.Forms.Shared.Constants
+@using Sitecore.XA.Foundation.SitecoreExtensions.Extensions
+@model A11Y.Feature.Forms.Models.A11YDropDownListViewModel
+@{
+    var requiredMarker = Model.Required ? "*" : string.Empty;
+    var attributesToReplace = new Dictionary<string, bool> {{"data-val-required", !Model.RequiredFieldMessage.IsNullOrWhiteSpace()}};
+}
+
+<div class="form-group">
+    <label for="@Html.IdFor(m => Model.Value)" class="@Model.LabelCssClass">
+        @if (Html.Sitecore().IsExperienceFormsEditMode())
+        {
+            @Html.DisplayTextFor(t => Model.Title) @requiredMarker
+        }
+        else
+        {
+            @Html.Sxa().Field(Templates.LabelSettings.Fields.TitleId, Sitecore.Context.Database.Items.GetItem(Model.ItemId), new A11YRenderingParameterDto { ShowTextAsRaw = true })
+            @requiredMarker
+        }
+    </label>
+    <div class="dropdown-list @Model.CssClass"
+         aria-live="polite"
+         aria-relevant="additions text"
+         role="alertdialog">
+        <select aria-describedby="@Html.IdFor(m => Model.Value)" id="@Html.IdFor(m => Model.Value)" name="@Html.NameFor(m => Model.Value)" class="form-control dropdown" @if (Model.HasAutocomplete) { <text> autocomplete="@Model.AutocompleteValue" </text> } @if (Model.Required) { if (!string.IsNullOrEmpty(Model.RequiredFieldMessage)) { <text> data-val-required="@Model.RequiredFieldMessage" aria-required="true" </text> } } data-sc-tracking="@Model.IsTrackingEnabled" data-sc-field-name="@Model.Name" data-sc-field-key="@Model.ConditionSettings.FieldKey" @Html.GenerateUnobtrusiveValidationAttributes(m => m.Value, attributesToReplace)>
+            @if (Model.ShowEmptyItem)
+            {
+                <option label=" "></option>
+            }@foreach (var item in Model.Items)
+            {
+                <option value="@item.Value" selected="@item.Selected">@item.Text</option>
+            }
+        </select>
+        @Html.ValidationMessageFor(m => Model.Value)
+    </div>
+</div>

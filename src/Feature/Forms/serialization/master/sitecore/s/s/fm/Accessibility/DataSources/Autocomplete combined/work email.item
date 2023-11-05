@@ -1,0 +1,165 @@
+----item----
+version: 1
+id: {F9984FFE-A1EA-4E9F-8249-88F930672B76}
+database: master
+path: /sitecore/system/Settings/Forms/Accessibility/DataSources/Autocomplete combined/work email
+parent: {8A2E9A3C-C9B9-422B-952A-0A745F46CD4C}
+name: work email
+master: {00000000-0000-0000-0000-000000000000}
+template: {36417C61-DCD5-4EC2-AA49-12C19D7E874A}
+templatekey: Autocomplete Token
+created: 20200506T103814Z
+
+----field----
+field: {4CF69976-0782-4C24-8A4E-3DEC90E248D0}
+name: Value
+key: value
+content-length: 10
+
+work email
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+3000
+----version----
+language: de-DE
+version: 1
+revision: 03666eb7-c491-445f-b589-b1817ddbbc16
+
+----field----
+field: {D8466181-6626-4D9A-84D1-07AAD709563A}
+name: Name
+key: name
+content-length: 27
+
+E-Mail Adresse Arbeitsplatz
+----field----
+field: {834C49B0-1FBC-4C6D-B2AE-99B676AE6421}
+name: Description
+key: description
+content-length: 86
+
+Das Feld dient dazu, jemanden an seinem Arbeitsplatz zu kontaktieren.
+E-Mail Adresse.
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 27
+
+E-Mail Adresse Arbeitsplatz
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200506T103114Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+03666eb7-c491-445f-b589-b1817ddbbc16
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200507T155209Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----version----
+language: en
+version: 1
+revision: 828d2ad7-226a-43f1-b871-71965783adef
+
+----field----
+field: {D8466181-6626-4D9A-84D1-07AAD709563A}
+name: Name
+key: name
+content-length: 19
+
+Work E-mail address
+----field----
+field: {834C49B0-1FBC-4C6D-B2AE-99B676AE6421}
+name: Description
+key: description
+content-length: 82
+
+Meaning the field is for contacting someone at their workplace.
+E-mail address.
+
+----field----
+field: {B5E02AD9-D56F-4C41-A065-A133DB87BDEB}
+name: __Display name
+key: __display name
+content-length: 19
+
+Work E-mail address
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200506T105418Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+828d2ad7-226a-43f1-b871-71965783adef
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200508T151406Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
