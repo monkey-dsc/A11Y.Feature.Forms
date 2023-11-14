@@ -1,4 +1,4 @@
-﻿namespace A11Y.Feature.Forms.Helpers
+﻿namespace A11Y.Feature.Forms.Models.Interfaces
 {
     public interface IValidationSettings
     {

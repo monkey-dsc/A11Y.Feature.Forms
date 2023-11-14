@@ -30,7 +30,7 @@ name: Field Type
 key: field type
 content-length: 38
 
-{4EE89EA7-CEFE-4C8E-8532-467EF64591FC}
+{F5C82C0F-05BE-45F6-8DEC-4E53DEBDEEC2}
 ----field----
 field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
 name: __Sortorder
@@ -41,7 +41,7 @@ content-length: 3
 ----version----
 language: de-DE
 version: 1
-revision: 35ca2f8f-d880-46e4-9de0-42e9322f276a
+revision: 84c50b9a-e7b1-444d-a5ae-57e63a661926
 
 ----field----
 field: {71FFD7B2-8B09-4F7B-8A66-1E4CEF653E8D}
@@ -77,21 +77,21 @@ name: __Revision
 key: __revision
 content-length: 36
 
-35ca2f8f-d880-46e4-9de0-42e9322f276a
+84c50b9a-e7b1-444d-a5ae-57e63a661926
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20221114T130515Z
+20231114T152213Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\Admin
+sitecore\admin
 ----version----
 language: en
 version: 1

@@ -17,10 +17,17 @@ key: show empty item
 content-length: 1
 
 1
+----field----
+field: {589A7ADE-81D4-4A60-B9E2-7EAF6AE8A563}
+name: Field Type
+key: field type
+content-length: 38
+
+{DC4473CB-EBE3-40DD-9BB9-C9E67FD2FB81}
 ----version----
 language: de-DE
 version: 1
-revision: a9b8b2af-2819-419c-ab81-8c2bbe90633b
+revision: 93997d48-c753-47ad-8de7-36bc0ac4a876
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -35,21 +42,21 @@ name: __Revision
 key: __revision
 content-length: 36
 
-a9b8b2af-2819-419c-ab81-8c2bbe90633b
+93997d48-c753-47ad-8de7-36bc0ac4a876
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20221114T133201Z
+20231114T185723Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\Admin
+sitecore\admin
 ----version----
 language: en
 version: 1
