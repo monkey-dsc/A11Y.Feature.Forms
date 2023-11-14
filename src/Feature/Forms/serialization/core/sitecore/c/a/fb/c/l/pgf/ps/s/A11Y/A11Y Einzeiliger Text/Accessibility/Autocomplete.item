@@ -62,7 +62,7 @@ office/32x32/text_field.png
 ----version----
 language: de-DE
 version: 1
-revision: fa99d54c-a3e7-4378-ac81-094a28ef072a
+revision: f9630762-4560-40c7-9ab5-90de161319a2
 
 ----field----
 field: {85F7FB0C-B383-4D91-B42E-90247EA49ACB}
@@ -70,7 +70,7 @@ name: HelpText
 key: helptext
 content-length: 59
 
-Unterstützt den Besucher beim ausfüllen von Formularfeldern
+Unterstützt den Besucher beim Ausfüllen von Formularfeldern
 ----field----
 field: {3885A716-2EED-47AE-9132-32225F0458FF}
 name: FormLabel
@@ -112,14 +112,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-fa99d54c-a3e7-4378-ac81-094a28ef072a
+f9630762-4560-40c7-9ab5-90de161319a2
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20231105T130015Z
+20231114T171548Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

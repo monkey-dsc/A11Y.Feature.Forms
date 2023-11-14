@@ -1,6 +1,6 @@
 ----item----
 version: 1
-id: {9EB4BD08-718D-4642-BFFE-BAFAF426A1B9}
+id: {0F1943BE-F74A-44C0-A458-2D0BD6A7C214}
 database: core
 path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/A11Y/A11Y DropDownList/Accessibility
 parent: {AEAD3496-1C09-48F1-936F-FD2392050616}
@@ -8,22 +8,15 @@ name: Accessibility
 master: {00000000-0000-0000-0000-000000000000}
 template: {F698FE6D-35CA-4783-B36C-34928F3A23F2}
 templatekey: FormSection
-created: 20221110T220749Z
+created: 20231114T172346Z
 
-----field----
-field: {00FDAB55-3A4A-4376-B786-7EA959BB0057}
-name: ControlDefinitions
-key: controldefinitions
-content-length: 77
-
-{32E57C21-6F3D-4C10-A09F-DCCD4730B7F0}|{D985530A-375F-494C-B2F3-768C93CB840D}
 ----field----
 field: {19B597D3-2EDD-4AE2-AEFE-4A94C7F10E31}
 name: __Source Item
 key: __source item
 content-length: 54
 
-sitecore://core/{0BEC65C7-A6BB-4413-84EC-A4A5E0C2FB8A}
+sitecore://core/{A323E721-5A19-4393-A283-629407B7B0F4}
 ----field----
 field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
 name: __Workflow
@@ -34,7 +27,7 @@ content-length: 0
 ----version----
 language: da
 version: 1
-revision: b2dd2c29-bf23-4505-9cd8-dded67d427e6
+revision: a61e5c90-ab19-4c26-9c6f-04987bfbdb6a
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -42,7 +35,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20200511T185836Z
+20231114T172347Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -56,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b2dd2c29-bf23-4505-9cd8-dded67d427e6
+a61e5c90-ab19-4c26-9c6f-04987bfbdb6a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20200511T185836Z
+20231114T172347Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -71,6 +64,13 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 0
+
+
 ----field----
 field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
 name: __Workflow state
@@ -81,7 +81,7 @@ content-length: 0
 ----version----
 language: de-DE
 version: 1
-revision: fdbe7e76-17ab-458a-a471-c63dd6c60a3a
+revision: 976dad39-620e-48a2-ae15-9e83e3e0df2b
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -89,7 +89,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20200511T185836Z
+20231114T172346Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -103,14 +103,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-fdbe7e76-17ab-458a-a471-c63dd6c60a3a
+976dad39-620e-48a2-ae15-9e83e3e0df2b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20200512T132039Z
+20231114T174555Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -118,6 +118,13 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 0
+
+
 ----field----
 field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
 name: __Workflow state
@@ -128,7 +135,7 @@ content-length: 0
 ----version----
 language: en
 version: 1
-revision: 393704c2-a3d5-4c9d-8a37-1f0326b79409
+revision: 5335df05-9e13-4518-8ac4-8b97fa5f0d3d
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -136,7 +143,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20200511T185836Z
+20231114T172346Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -150,14 +157,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-393704c2-a3d5-4c9d-8a37-1f0326b79409
+5335df05-9e13-4518-8ac4-8b97fa5f0d3d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20200511T185836Z
+20231114T172346Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -165,6 +172,13 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 0
+
+
 ----field----
 field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
 name: __Workflow state
@@ -175,7 +189,7 @@ content-length: 0
 ----version----
 language: ja-JP
 version: 1
-revision: 330985cd-686f-49d3-880a-758746d8ca70
+revision: 381d7316-8338-42fc-84a0-3b3e701c233c
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -183,7 +197,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20200511T185836Z
+20231114T172347Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -197,14 +211,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-330985cd-686f-49d3-880a-758746d8ca70
+381d7316-8338-42fc-84a0-3b3e701c233c
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20200511T185836Z
+20231114T172347Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -212,6 +226,13 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 0
+
+
 ----field----
 field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
 name: __Workflow state
@@ -222,7 +243,7 @@ content-length: 0
 ----version----
 language: zh-CN
 version: 1
-revision: 54805cbc-3292-42e4-a54e-f86e1cf7fd71
+revision: 6b36a02f-f1ab-46ed-b6ee-29022272e406
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -230,7 +251,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20200511T185836Z
+20231114T172347Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -244,14 +265,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-54805cbc-3292-42e4-a54e-f86e1cf7fd71
+6b36a02f-f1ab-46ed-b6ee-29022272e406
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20200511T185836Z
+20231114T172347Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -259,6 +280,13 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 0
+
+
 ----field----
 field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
 name: __Workflow state

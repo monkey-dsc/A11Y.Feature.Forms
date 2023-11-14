@@ -23,11 +23,11 @@ name: Field Type
 key: field type
 content-length: 38
 
-{38137D30-7B2A-47D5-BBD8-133252C01B28}
+{7BB1BD97-B0B6-4484-9357-8219D257E6ED}
 ----version----
 language: de-DE
 version: 1
-revision: dbe768d5-00c9-42d9-bd48-ff7d7176119f
+revision: a9db863a-ecfa-40ed-be96-0edfd5b06f66
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -56,21 +56,21 @@ name: __Revision
 key: __revision
 content-length: 36
 
-dbe768d5-00c9-42d9-bd48-ff7d7176119f
+a9db863a-ecfa-40ed-be96-0edfd5b06f66
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20221114T132253Z
+20231114T185707Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
 content-length: 14
 
-sitecore\Admin
+sitecore\admin
 ----version----
 language: en
 version: 1

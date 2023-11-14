@@ -1,6 +1,6 @@
 ----item----
 version: 1
-id: {7390D919-B928-4D77-98B6-C1B0090A7290}
+id: {F3FB55E9-81D2-4C57-8D23-E2EA5FF58F91}
 database: core
 path: /sitecore/client/Applications/FormsBuilder/Components/Layouts/PropertyGridForm/PageSettings/Settings/A11Y/A11Y MultiLineText/Accessibility
 parent: {BF5BBE49-E579-4C4F-8CF8-ACA432B0FFAE}
@@ -8,22 +8,15 @@ name: Accessibility
 master: {00000000-0000-0000-0000-000000000000}
 template: {F698FE6D-35CA-4783-B36C-34928F3A23F2}
 templatekey: FormSection
-created: 20221110T220848Z
+created: 20231114T173722Z
 
-----field----
-field: {00FDAB55-3A4A-4376-B786-7EA959BB0057}
-name: ControlDefinitions
-key: controldefinitions
-content-length: 77
-
-{8BC7B00E-EB69-441F-B224-08A601ED93F4}|{1B15E141-4B05-4F32-A730-92E1F4D89ED4}
 ----field----
 field: {19B597D3-2EDD-4AE2-AEFE-4A94C7F10E31}
 name: __Source Item
 key: __source item
 content-length: 54
 
-sitecore://core/{0BEC65C7-A6BB-4413-84EC-A4A5E0C2FB8A}
+sitecore://core/{A323E721-5A19-4393-A283-629407B7B0F4}
 ----field----
 field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
 name: __Workflow
@@ -34,7 +27,7 @@ content-length: 0
 ----version----
 language: da
 version: 1
-revision: f626c9c5-3d72-4d52-b99d-416016952556
+revision: a61e5c90-ab19-4c26-9c6f-04987bfbdb6a
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -42,7 +35,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20200511T190106Z
+20231114T172347Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -56,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-f626c9c5-3d72-4d52-b99d-416016952556
+a61e5c90-ab19-4c26-9c6f-04987bfbdb6a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20200511T190106Z
+20231114T172347Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -81,7 +74,7 @@ content-length: 0
 ----version----
 language: de-DE
 version: 1
-revision: be1069b8-e71c-4e37-9faa-5e555b14cbd6
+revision: 06021bc7-ffd7-4531-b056-c5b756ebc08a
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -89,7 +82,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20200511T190106Z
+20231114T172346Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -103,14 +96,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-be1069b8-e71c-4e37-9faa-5e555b14cbd6
+06021bc7-ffd7-4531-b056-c5b756ebc08a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20200512T132102Z
+20231114T174541Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -128,7 +121,7 @@ content-length: 0
 ----version----
 language: en
 version: 1
-revision: 1fc748a1-1346-47be-a745-ad288eca6a61
+revision: 5335df05-9e13-4518-8ac4-8b97fa5f0d3d
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -136,7 +129,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20200511T190106Z
+20231114T172346Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -150,14 +143,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1fc748a1-1346-47be-a745-ad288eca6a61
+5335df05-9e13-4518-8ac4-8b97fa5f0d3d
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20200511T190106Z
+20231114T172346Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -175,7 +168,7 @@ content-length: 0
 ----version----
 language: ja-JP
 version: 1
-revision: 583509b9-389e-42cd-9390-60897b287eab
+revision: 381d7316-8338-42fc-84a0-3b3e701c233c
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -183,7 +176,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20200511T190106Z
+20231114T172347Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -197,14 +190,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-583509b9-389e-42cd-9390-60897b287eab
+381d7316-8338-42fc-84a0-3b3e701c233c
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20200511T190106Z
+20231114T172347Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -222,7 +215,7 @@ content-length: 0
 ----version----
 language: zh-CN
 version: 1
-revision: 6306bdd4-34e2-46a3-b70b-f727fd3c38ed
+revision: 6b36a02f-f1ab-46ed-b6ee-29022272e406
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -230,7 +223,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20200511T190106Z
+20231114T172347Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -244,14 +237,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-6306bdd4-34e2-46a3-b70b-f727fd3c38ed
+6b36a02f-f1ab-46ed-b6ee-29022272e406
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20200511T190106Z
+20231114T172347Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
