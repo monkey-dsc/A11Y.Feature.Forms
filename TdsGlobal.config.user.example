@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-        <PackageAuthor>DEV</PackageAuthor>
+        <PackageAuthor>{YOUR NAME}</PackageAuthor>
         <OutputPath>.\bin\Debug\</OutputPath>
-        <SitecoreWebUrl>http://mswsc.dev.local</SitecoreWebUrl>
-        <SitecoreDeployFolder>C:\inetpub\wwwroot\mswsc.dev.local</SitecoreDeployFolder>
+        <SitecoreWebUrl>https://{HOST NAME}/</SitecoreWebUrl>
+        <SitecoreDeployFolder>{PATH TO WEBROOT}</SitecoreDeployFolder>
         <RecursiveDeployAction>Ignore</RecursiveDeployAction>
         <InstallSitecoreConnector>True</InstallSitecoreConnector>
         <SitecoreAccessGuid>1a7cd905-cce4-4d6f-8805-673d5e35c07a</SitecoreAccessGuid>
