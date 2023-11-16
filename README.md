@@ -2,7 +2,7 @@
 
 You may still not landed in the composable world? Still working with XP Solutions on MVC?
 
-Then you will be happy with thisinitial package for the Sitecore Forms MVC Accessibility Feature.
+Then you will be happy with this initial package for the Sitecore Forms MVC Accessibility Feature.
 
 Most of the common Sitecore Fields are made accessibility ready!
 
@@ -48,11 +48,11 @@ Currently this works for default Sitecore Form fields, but in my case we used Fo
 
 The installation is quite simple, it's just a Sitecore package which comes with all necessary core an master items, as well as all needed files.
 
-> ==**But, be careful! There are several items which could get in conflict with your local environment!**==
+> **But, be careful! There are several items which could get in conflict with your local environment!**
 
-All *"new"** Expanders or fields are separated into a folder called "A11Y". But in Sitecore Forms there are Action items and Operators where you need to explicitely add fields to work with conditions.
+All **"new"** Expanders or fields are separated into a folder called **"A11Y"**. But in Sitecore Forms there are Action items and Operators where you need to explicitely add fields to work with conditions.
 
-In the package those items are marked with the option *"ask user"*, so please **review** them, if you have already created custom form fields!
+In the package those items are marked with the option **"ask user"**, so please **review** them, if you have already created custom form fields!
 
 The following items are affected:
 
